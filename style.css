@@ -1,0 +1,84 @@
+body {
+    margin: 0px;
+}
+
+.fond {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-image: url("imageallout.jpg");
+    background-size: cover;
+    background-position: center;
+
+    filter: blur(5px);
+    z-index: -1;
+}
+.lien {
+    display: flex;
+    justify-content: center;
+}
+.GION {
+    position: fixed; ;
+    width: 30%;
+    background-position: center;
+    bottom: 50px;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    max-height: 100px;
+}
+
+.GION a {
+    color: rgb(231, 8, 8);
+    font-size: 25px;
+    text-decoration: none;
+}
+.h1 {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(8, 6, 6);
+    font-size: 20px;
+     background-color: rgb(173, 9, 9);
+    padding: 10px 50px;
+    border-radius: 10px;
+    max-height: 200px;
+}
+.listejoueurs {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.listejoueurs img {
+    width: 50%;
+    height: auto;
+}
+
+.listejoueurs ol {
+    background-color: #b50909;
+    padding: 30px;
+    border-radius: 15px;
+    color: black;
+}
+.listejoueurs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;      
+    justify-content: flex-start;  
+    gap: 30px;
+    width: 100%;
+    min-height: 100vh;
+}
+.description {
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+
